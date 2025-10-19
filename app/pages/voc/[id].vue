@@ -10,6 +10,8 @@
     <div>{{ id }}</div>
     <el-button type="primary">Test Button</el-button>
 
+    <voc-title text="个人信息调研" :is-center="false" :level="1" />
+
     <voc-input title="你的姓名" placeholder="请输入姓名..." />
 
     <voc-radio title="单选标题" :is-vertical="false" :options="['选项1', '选项2', '选项3']" />
