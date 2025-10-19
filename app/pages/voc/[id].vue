@@ -8,6 +8,9 @@
   <div class="voc-detail">
     <div>voc detail</div>
     <div>{{ id }}</div>
+    <el-button type="primary">Test Button</el-button>
+
+    <voc-input title="你的姓名" placeholder="请输入姓名..." />
   </div>
 </template>
 

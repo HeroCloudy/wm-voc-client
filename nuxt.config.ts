@@ -8,11 +8,16 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
+    '@element-plus/nuxt',
   ],
   icon: {
     localApiEndpoint: '/nuxt-icon',
   },
-  css: ['@unocss/reset/tailwind-compat.css', '~/assets/scss/index.scss'],
+  css: [
+    'element-plus/dist/index.css',
+    '@unocss/reset/tailwind-compat.css',
+    '~/assets/scss/index.scss',
+  ],
   ssr: true, // 是否开启 ssr
   devServer: {
     // 服务端口号
