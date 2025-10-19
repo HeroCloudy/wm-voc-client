@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@unocss/nuxt'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/icon',
+    '@unocss/nuxt',
+    '@pinia/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
+  ],
   icon: {
     localApiEndpoint: '/nuxt-icon',
   },
