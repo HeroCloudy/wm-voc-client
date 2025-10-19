@@ -19,7 +19,9 @@
   },
   "packageManager": "pnpm@10.8.1+sha1.a4eff733d0c4ccc179997f0ef4986f6e92427781",
   "devDependencies": {
+    "@unocss/nuxt": "^66.5.4",
     "prettier": "^3.6.2",
-    "sass": "^1.93.2"
+    "sass": "^1.93.2",
+    "unocss": "^66.5.4"
   }
 }
