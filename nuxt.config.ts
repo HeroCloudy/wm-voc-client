@@ -6,5 +6,5 @@ export default defineNuxtConfig({
   icon: {
     localApiEndpoint: '/nuxt-icon',
   },
-  css: ['@unocss/reset/tailwind-compat.css'],
+  css: ['@unocss/reset/tailwind-compat.css', '~/assets/scss/index.scss'],
 })
