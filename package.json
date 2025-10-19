@@ -17,5 +17,8 @@
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   },
-  "packageManager": "pnpm@10.8.1+sha1.a4eff733d0c4ccc179997f0ef4986f6e92427781"
+  "packageManager": "pnpm@10.8.1+sha1.a4eff733d0c4ccc179997f0ef4986f6e92427781",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
