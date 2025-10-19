@@ -11,6 +11,8 @@
     <el-button type="primary">Test Button</el-button>
 
     <voc-input title="你的姓名" placeholder="请输入姓名..." />
+
+    <voc-radio title="单选标题" :is-vertical="false" :options="['选项1', '选项2', '选项3']" />
   </div>
 </template>
 
