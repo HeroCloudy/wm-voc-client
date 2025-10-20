@@ -16,6 +16,8 @@
     <voc-input title="你的姓名" placeholder="请输入姓名..." />
 
     <voc-radio title="单选标题" :is-vertical="false" :options="['选项1', '选项2', '选项3']" />
+
+    <voc-paragraph text="一行段落1\n一行段落2" :is-center="false" />
   </div>
 </template>
 

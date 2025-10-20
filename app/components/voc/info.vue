@@ -1,6 +1,6 @@
 <!--
  @name: input.vue
- @description: 单选框组件
+ @description: 问卷信息组件
  @author: 程序员优雅哥 youyacoder
  @time: 2025/10/19 21:53
 -->
