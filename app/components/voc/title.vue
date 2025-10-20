@@ -6,7 +6,6 @@
 -->
 <template>
   <div class="voc-title">
-    111
     <div :style="innerStyle">{{ text }}</div>
   </div>
 </template>

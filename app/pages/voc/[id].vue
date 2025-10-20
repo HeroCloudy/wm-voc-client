@@ -6,9 +6,10 @@
 -->
 <template>
   <div class="voc-detail">
-    <div>voc detail</div>
     <div>{{ id }}</div>
     <el-button type="primary">Test Button</el-button>
+
+    <voc-info title="问卷标题" description="问卷描述..." />
 
     <voc-title text="个人信息调研" :is-center="false" :level="1" />
 
