@@ -1,33 +1,33 @@
 <!--
  @name: input.vue
- @description: 单选框组件
+ @description: 复选框组件
  @author: 程序员优雅哥 youyacoder
  @time: 2025/10/19 21:53
 -->
 <template>
-  <div class="voc-radio">
+  <div class="voc-checkbox">
     <div class="title">{{ title }}</div>
-    <el-radio-group v-model="value">
+    <el-checkbox-group v-model="value">
       <el-space :direction="isVertical ? 'vertical' : 'horizontal'" alignment="stretch">
-        <el-radio v-for="item in options" :key="item" :value="item" :label="item" />
+        <el-checkbox v-for="item in options" :key="item" :value="item" :label="item" />
       </el-space>
-    </el-radio-group>
+    </el-checkbox-group>
   </div>
 </template>
 
 <script setup lang="ts">
-interface RadioProp {
+interface CheckboxProp {
   title?: string
   isVertical?: boolean
   options?: string[]
 }
-defineProps<RadioProp>()
+defineProps<CheckboxProp>()
 
 const value = defineModel()
 </script>
 <style scoped lang="scss">
-.voc-radio {
-  @apply w-full  my-2;
+.voc-checkbox {
+  @apply w-full my-2;
   .title {
     @apply my-2 text-16px font-bold;
   }

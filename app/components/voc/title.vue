@@ -45,6 +45,6 @@ const innerStyle = computed<Record<string, any>>(() => {
 </script>
 <style scoped lang="scss">
 .voc-title {
-  @apply text-gray-800;
+  @apply w-full text-gray-800;
 }
 </style>

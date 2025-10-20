@@ -19,6 +19,6 @@ defineProps<ParagraphProp>()
 </script>
 <style scoped lang="scss">
 .voc-paragraph {
-  white-space: pre-wrap !important;
+  white-space: w-full pre-wrap !important;
 }
 </style>

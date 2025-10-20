@@ -23,7 +23,7 @@ const value = defineModel()
 </script>
 <style scoped lang="scss">
 .voc-input {
-  @apply my-2;
+  @apply w-full my-2;
   .title {
     @apply my-2 text-16px font-bold;
   }

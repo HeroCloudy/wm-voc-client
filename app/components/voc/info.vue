@@ -20,6 +20,6 @@ const props = defineProps<InfoProp>()
 </script>
 <style scoped lang="scss">
 .voc-info {
-  @apply text-center my-3;
+  @apply w-full  text-center my-3;
 }
 </style>
